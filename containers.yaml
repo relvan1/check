@@ -6,7 +6,7 @@ services:
     ports:
       - "4444:4444"
   chrome:
-    image: softcrylicqa/chrome-headless
+    image: softcrylicqa/headless-chrome
     depends_on:
       - selenium-hub
     environment:
